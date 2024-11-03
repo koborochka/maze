@@ -3,10 +3,8 @@ import GameBoard from "./components/GameBoard/GameBoard"
 
 function App() {
 
-  return (
-    <>
+  return ( 
       <GameBoard></GameBoard>
-    </>
   )
 }
 

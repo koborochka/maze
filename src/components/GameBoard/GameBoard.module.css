@@ -1,0 +1,36 @@
+.game-board{
+    display: grid;
+    background-color: chocolate;
+    width: fit-content;
+    height: auto;
+    margin: 50px auto 0;
+
+    grid-template-rows: repeat(9, 50px);
+    gap: 5px;
+}
+
+.row{
+    display: grid;
+    grid-template-columns: repeat(9, 50px);
+    gap: 5px;
+}
+
+.cell{  
+    background-color: brown;
+}
+.canvas{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.turn-order{
+    margin: 50px auto;
+    font-size: 52px;
+}
+.turn-order--blue{
+    color: blue;
+}
+.turn-order--red{
+    color: red;
+}
